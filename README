@@ -1,0 +1,15 @@
+# apriori
+
+Implemenation of the apriori algorithm in Clojure.
+
+## Usage
+
+(def L (get-frequent-itemsets database min-support))
+
+The database is a set of sorted-sets representing transactions. To create association rules from the frequent itemsets L, one needs to create a set of all non-empty subsets of L. 
+
+## License
+
+Copyright (C) 2011 Andreas Koestler
+
+Distributed under the Eclipse Public License, the same as Clojure.
